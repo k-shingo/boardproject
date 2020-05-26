@@ -129,3 +129,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
 LOGIN_URL = 'login'
+
+import django_heroku
+django_heroku.settings(locals())
